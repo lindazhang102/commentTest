@@ -20,10 +20,11 @@ var Comment = React.createClass({
   render: function() {
     return (
       <div className="comment">
-        <h2 className="commentAuthor">
+        <h3 className="commentAuthor">
           {this.props.author}
-        </h2>
+        </h3>
         <span dangerouslySetInnerHTML={this.rawMarkup()} />
+        <h5>time</h5>
       </div>
     );
   }
@@ -75,7 +76,7 @@ var CommentBox = React.createClass({
   render: function() {
     return (
       <div className="commentBox">
-        <h1>Comments</h1>
+        <h2>React 评论区</h2>
         <CommentList data={this.state.data} />
         <CommentForm onCommentSubmit={this.handleCommentSubmit} />
       </div>
@@ -125,15 +126,16 @@ var CommentForm = React.createClass({
       <form className="commentForm" onSubmit={this.handleSubmit}>
         <input
           type="text"
-          placeholder="Your name"
+          placeholder="tell me your big name"
           value={this.state.author}
           onChange={this.handleAuthorChange}
         />
+        </br>
         <input
           type="text"
-          placeholder="Say something..."
+          placeholder="dont't you want to say"
           value={this.state.text}
-          onChange={this.handleTextChange}
+          onChange={this.handleTextChange}>
         />
         <input type="submit" value="Post" />
       </form>

@@ -1,12 +1,17 @@
 [
     {
         "id": 1388534400000,
-        "author": "Pete Hunt",
-        "text": "Hey there!"
+        "author": "花生",
+        "text": "Hey 花生米!"
     },
     {
         "id": 1420070400000,
-        "author": "Paul O’Shannessy",
-        "text": "React is *great*!"
+        "author": "石头",
+        "text": "React is *great* ,就像石头一样!"
+    },
+    {
+        "id": 1470290905311,
+        "author": "not me",
+        "text": "i don't know what to say"
     }
 ]
