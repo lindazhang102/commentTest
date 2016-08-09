@@ -57,3 +57,31 @@ p, ul {
 ul {
   padding-left: 30px;
 }
+.commentContent{
+  display: block;
+  height: 100px;
+  width: 400px;
+}
+.commentFormAuthor{
+  width: 403px;
+}
+.commentDivide{
+  border-bottom: 1px solid #50acc3;
+}
+.time-stamp{
+  font-style: italic;
+  color:#069c5b;
+}
+.second-stamp{
+  padding-left: 10px;
+}
+.commentLine{
+  border-bottom: 1px solid #50acc3;
+}
+.commentDelete{
+  float: right;
+  cursor: pointer;
+}
+.commentMd{
+  clear: both;
+}
